@@ -23,21 +23,13 @@
         </clipPath>
 
         <style>
-            :root {
-                --stroke-width: 4;
-            }
-
             .left-top {
                 stroke: #ffffff;
-                stroke-width: var(--stroke-width);
-                fill: none;
                 clip-path: url(#clipLeftTop);
             }
 
             .right-bottom {
                 stroke: #000000;
-                stroke-width: var(--stroke-width);
-                fill: none;
                 clip-path: url(#clipRightBottom);
             }
         </style>
