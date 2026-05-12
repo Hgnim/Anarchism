@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 396" width="1080" height="2376">
+    <defs>
+        <g id="anarchoPacifism_flag0">
+            <defs>
+                <g id="anarchism">
+                    <style>
+                        .general {
+                            stroke-width: 4;
+                            fill: none;
+                        }
+                    </style>
+
+                    <circle cx="22" cy="22" r="20" class="general" />
+                    <line x1="14" y1="24" x2="30" y2="24" class="general" />
+                    <line x1="22" y1="2" x2="8" y2="38" class="general" />
+                    <line x1="22" y1="2" x2="36" y2="38" class="general" />
+                </g>
+
+                <clipPath id="clipLeftTop">
+                    <polygon points="-44,-22 88,0 -44,66" />
+                </clipPath>
+                <clipPath id="clipRightBottom">
+                    <polygon points="88,-22 88,66 -44,66" />
+                </clipPath>
+
+                <style>
+                    .left-top {
+                        stroke: #000000;
+                        clip-path: url(#clipLeftTop);
+                    }
+
+                    .right-bottom {
+                        stroke: #ffffff;
+                        clip-path: url(#clipRightBottom);
+                    }
+                </style>
+            </defs>
+
+            <polygon points="0,0 264,0 0,176" fill="#ffffff" />
+            <polygon points="264,0 264,176 0,176" fill="#000000" />
+
+            <use transform="translate(110, 66)" href="#anarchism" class="left-top" />
+
+            <use transform="translate(110, 66)" href="#anarchism" class="right-bottom" />
+        </g>
+    </defs>
+
+    <rect x="0" y="0" width="180" height="396" fill="#141414" />
+    <use href="#anarchoPacifism_flag0" transform="translate(178, 66) rotate(90 0 0)" />
+</svg>

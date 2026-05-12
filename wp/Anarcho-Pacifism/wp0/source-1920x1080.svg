@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" width="1920" height="1080">
+    <defs>
+        <g id="anarchoPacifism">
+            <defs>
+                <g id="anarchism">
+                    <style>
+                        .general {
+                            stroke-width: 4;
+                            fill: none;
+                        }
+                    </style>
+
+                    <circle cx="22" cy="22" r="20" class="general" />
+                    <line x1="14" y1="24" x2="30" y2="24" class="general" />
+                    <line x1="22" y1="2" x2="8" y2="38" class="general" />
+                    <line x1="22" y1="2" x2="36" y2="38" class="general" />
+                </g>
+
+                <clipPath id="clipLeftTop">
+                    <polygon points="0,0 44,0 0,44" />
+                </clipPath>
+                <clipPath id="clipRightBottom">
+                    <polygon points="44,0 44,44 0,44" />
+                </clipPath>
+
+                <style>
+                    .left-top {
+                        stroke: #ffffff;
+                        clip-path: url(#clipLeftTop);
+                    }
+
+                    .right-bottom {
+                        stroke: #000000;
+                        clip-path: url(#clipRightBottom);
+                    }
+                </style>
+            </defs>
+
+            <use href="#anarchism" class="left-top" />
+
+            <use href="#anarchism" class="right-bottom" />
+        </g>
+    </defs>
+
+    <rect x="0" y="0" width="320" height="180" fill="#141414" />
+    <use href="#anarchoPacifism" transform="translate(138, 68)" />
+</svg>
