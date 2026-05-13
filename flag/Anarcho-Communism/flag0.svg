@@ -36,7 +36,7 @@
     </defs>
 
     <polygon points="0,0 264,0 0,176" fill="#d40000" />
-  <polygon points="264,0 264,176 0,176" fill="#000000" />
+    <polygon points="264,0 264,176 0,176" fill="#000000" />
 
     <use transform="translate(110, 66)" href="#anarchism" class="left-top" />
 
