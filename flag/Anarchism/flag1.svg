@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 100" width="192" height="128">
+    <defs>
+         <g id="anarchism">
+            <defs>
+                <style>
+                    .general {
+                        stroke: #CC0000;
+                        stroke-width: 4;
+                        fill: none;
+                    }
+                </style>
+            </defs>
+
+            <circle cx="22" cy="22" r="20" class="general" />
+
+            <line x1="14" y1="24" x2="30" y2="24" class="general" />
+
+            <line x1="22" y1="2" x2="8" y2="38" class="general" />
+
+            <line x1="22" y1="2" x2="36" y2="38" class="general" />
+        </g>
+    </defs>
+
+    <polygon points="0,0 150,0 150,100 0,100" fill="#000000" />
+
+    <use transform="translate(53, 28)" href="#anarchism"/>
+</svg>
